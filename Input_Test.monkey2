@@ -212,7 +212,7 @@ Class InputTest Extends Window
 				
 				canvas.Color = options.text_color
 				
-				canvas.DrawText(String(i), point.x, point.y, 0.5, 0.5)
+				canvas.DrawText(String(display_index), point.x, point.y, 0.5, 0.5)
 			Endif
 			
 			If (options.display_values) Then
